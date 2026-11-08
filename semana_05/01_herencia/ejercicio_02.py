@@ -72,8 +72,19 @@ class alumno:
     def mostrar(self):
         print(f"\n  El alumno: {self.nombre} vive en el distrito de: {self.distrito}")
 
+
+print ("\n Alumno 1")
+
 alumno1 = alumno("Juan Pérez", "Los Olivos", calculoii=18, mat_discreta=14, rd_neuro=12)
 alumno1.mostrar()
 alumno1.promedio()
 alumno1.curso_best_score()
 alumno1.aprobado()
+
+print ("\n Alumno 2")
+
+alumno2 = alumno("María Flores", "San Miguel", calculoii=10, mat_discreta=11, rd_neuro=11)
+alumno2.mostrar()
+alumno2.promedio()
+alumno2.curso_best_score()
+alumno2.aprobado()

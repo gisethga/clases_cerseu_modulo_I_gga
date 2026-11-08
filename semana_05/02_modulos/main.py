@@ -16,3 +16,10 @@ print(mul)
 
 elev = opera_3(var_1, var_2)
 print(elev)
+
+from ejercicio_participación import impuesto as opera_4
+resultado = opera_4()
+if resultado > 0:
+    print(f"El sueldo es mayor a 500 por lo que el impuesto es {resultado:.2f}")
+else:
+    print("El sueldo es menor a 500 por lo que no se aplica el impuesto")

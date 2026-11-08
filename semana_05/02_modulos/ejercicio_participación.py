@@ -10,3 +10,11 @@ Requisitos:
     Asunto: Participación  - Examen final
 
 """
+
+def impuesto():
+    sueldo = int(input("Ingrese el sueldo: "))
+    if sueldo > 500:
+        impt = sueldo * 0.08
+    else:
+        impt = 0
+    return impt
