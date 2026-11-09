@@ -16,4 +16,4 @@ def funcionDecora(funcionB):
 def saludo():
     print("Hola Pythonistas")
 
-#rint(saludo())
+#print(saludo())
